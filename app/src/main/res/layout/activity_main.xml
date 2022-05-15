@@ -6,7 +6,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".MainActivity">
 
-    <!--recycler view to display our chats-->
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/idRVChats"
         android:layout_width="match_parent"
@@ -21,7 +20,6 @@
         android:orientation="horizontal"
         android:weightSum="5">
 
-        <!--edit text to enter message-->
         <EditText
             android:id="@+id/idEdtMessage"
             android:layout_width="0dp"
@@ -29,7 +27,6 @@
             android:layout_weight="4"
             android:hint="Enter Message" />
 
-        <!--button to send message-->
         <ImageButton
             android:id="@+id/idIBSend"
             android:layout_width="0dp"

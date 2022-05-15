@@ -14,7 +14,6 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <!--text view for displaying user message-->
         <TextView
             android:id="@+id/idTVUser"
             android:layout_width="match_parent"
@@ -25,7 +24,6 @@
             android:text="User message"
             android:textColor="@color/black" />
 
-        <!--we are displaying user icon-->
         <ImageView
             android:layout_width="50dp"
             android:layout_height="50dp"
