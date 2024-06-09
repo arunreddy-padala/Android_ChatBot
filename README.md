@@ -1,10 +1,10 @@
-# Android_ChatBot
-Simple Chat Bot using Android 
+# ChatBot_Android
 
-Langauges and Frameworks: Java, Volley, Android Studio
+This project showcases a Simple ChatBot application developed in Java, using Android Studio and the Volley library for network operations. The app interfaces with the BrainShop API to fetch and display automated responses based on user inputs.
 
-A) Built a ChatBot App that outputs automated response based on user input message. API used for the bot response has been leveraged from BrainShop.
+Technologies and Frameworks: Java, Volley, Android Studio
 
-B) Used Volley to establish network connections and requests. Additionally, used JSONObjectRequest to parse the JSON data. 
-
-C) Visualised the user and bot responses using a recyler view. 
+Features:
+- Automated Responses: The chatbot generates responses using the BrainShop API based on the messages it receives from users.
+- Network Communication: Network requests are managed with Volley, utilizing JSONObjectRequest for efficient JSON data parsing.
+- UI Components: Conversations are displayed in a clean and scrollable layout using a RecyclerView, enhancing the visual experience and user interaction.
